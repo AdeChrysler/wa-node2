@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-web-node",
+  "version": "1.0.0",
+  "description": "WhatsApp Web Node for integrating with n8n",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "whatsapp-web.js": "^1.14.1"
+  }
+}
