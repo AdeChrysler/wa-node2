@@ -23,7 +23,7 @@ client.on('message', async msg => {
 
     try {
         // Send the received message to your n8n webhook
-        const response = await axios.post('https://your-n8n-webhook-url', {
+        const response = await axios.post('https://automation.kuut.us/webhook-test/2a4b0138-8604-4f77-8e1a-be2cdd548abd', {
             from: msg.from,
             body: msg.body,
             id: msg.id._serialized,
